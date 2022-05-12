@@ -1,0 +1,77 @@
+body{
+    background-image: url("https://img2.rtve.es/imagenes/paraisos-cercanos-nueva-zelanda-tierra-del-fin-del-mundo/1564479934839.jpg");
+}
+
+.menu{
+    width: 500px;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+.principal >li{
+    float: left;
+}
+
+.principal li a{
+    background: rgba(210, 105, 30, 0.336);
+    color: rgba(240, 248, 255, 0.61);
+    text-decoration: none;
+    padding: 10px 12px ;
+    display: block;
+}
+
+.principal li a:hover{
+    background-color: rgba(220, 20, 60, 0.226);
+}
+
+.principal li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.principal li:hover > ul{
+    display: block;
+}
+
+.principal li ul li{
+    position: relative;
+}
+
+.general h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.area{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagenes{
+    padding: 10px; 
+    
+}
+
+.imagenes3{
+    padding: 10px;
+}
+
+img:hover{
+    opacity: .5;
+    transition: .9s;
+}
+
+.titulo{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    color: aliceblue;
+}
