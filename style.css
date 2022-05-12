@@ -12,9 +12,10 @@
 body{
     background-color: rgb(206, 171, 124);
     background-image: url("https://fondosmil.com/fondo/85559.jpg");
-    background-repeat:repeat-y;
+    background-repeat:no-repeat;
     background-position: center;
     background-size: 100%;
+    background-attachment: fixed;
     width: 750px;
     height: 750px;
     margin: auto;
