@@ -1,19 +1,28 @@
 .titulo{
     text-align: center;
-    background-color: rgba(135, 161, 233, 0.452);
+    background-color: rgba(79, 142, 214, 0.452);
     font-size: 15px;
     color: rgba(240, 248, 255, 0.596);
     width: 750px;
     font-family:Verdana, Geneva, Tahoma, sans-serif ;
     letter-spacing: 2px;
     font-weight: bold;
+    text-shadow:
+		0 0 5px rgba(0,178,255,1),
+		0 0 10px rgba(0,178,255,1),
+		0 0 20px rgba(0,178,255,1),
+		0 0 40px rgba(38,104,127,1),
+		0 0 80px rgba(38,104,127,1),
+		0 0 90px rgba(38,104,127,1),
+		0 0 100px rgba(38,104,127,1),
+		0 0 140px rgba(38,104,127,1),
+		0 0 180px rgba(38,104,127,1);
 }
 
 body{
     background-color: rgb(206, 171, 124);
     background-image: url("https://fondosmil.com/fondo/85559.jpg");
     background-repeat:no-repeat;
-    background-position: center;
     background-size: 100%;
     background-attachment: fixed;
     width: 750px;
@@ -57,8 +66,18 @@ main{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 18px;
     margin-top: 30px;
-    color: rgb(115, 177, 100); 
-    font-weight: bold;
+    color: rgb(36, 82, 25); 
+    text-shadow:
+		0 0 5px rgba(0,178,255,1),
+		0 0 10px rgba(0,178,255,1),
+		0 0 20px rgba(0,178,255,1),
+		0 0 40px rgba(38,104,127,1),
+		0 0 80px rgba(38,104,127,1),
+		0 0 90px rgba(38,104,127,1),
+		0 0 100px rgba(38,104,127,1),
+		0 0 140px rgba(38,104,127,1),
+		0 0 180px rgba(38,104,127,1);
+
 }
 
 
@@ -87,8 +106,9 @@ main{
     margin-top: 10px;
     padding: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(44, 76, 119); 
+    color: rgba(255, 255, 255, 0.692); 
 }
+
 
 footer{
     background-color: rgba(32, 178, 171, 0.26);
@@ -125,8 +145,4 @@ footer{
     color: rgb(0, 0, 0);
 }
 
-footer img{
-    background-repeat: repeat-y;
-    margin-top: -50px;
-    padding: 5px;
-}
+
